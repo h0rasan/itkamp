@@ -1,0 +1,26 @@
+.folder {
+    display: inline-block;
+    background-color: rgba(184, 78, 78, 0.602);
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 17px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+span {
+    display: block;
+}
+
+img {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+p {
+    margin: auto;
+    position:bottom;
+}

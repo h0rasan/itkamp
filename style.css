@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+}
+
+div {
+    width: fit-content;
+    border-style: dashed;
+    border-color: brown;
+}
