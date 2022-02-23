@@ -1,0 +1,37 @@
+.kartica {
+    background-color: rgba(212, 209, 204, 0.048);
+    margin-right: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(46, 43, 182);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h6 {
+    margin: 0%;
+    padding-left: 10px;
+}
+
+h1 {
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(117, 101, 101);
+
+}
+
+.paragraf {
+    padding-left: 12px;
+    font-size: 25px;
+    
+}
+
+a { 
+    display: block;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(66, 66, 122, 0.664);
+    margin: 100px 15px 0px 15px;
+    height: 50px;
+    padding-left: 50px;  
+}
