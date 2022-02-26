@@ -26,11 +26,12 @@ h1 {
     
 }
 
-a { 
+a{ 
+
     display: block;
     border: none;
     border-radius: 12px;
-    background-color: rgba(66, 66, 122, 0.664);
+    background-color: rgba(66, 122, 85, 0.664);
     margin: 100px 15px 0px 15px;
     height: 50px;
     padding: 10px 30px 10px 30px;
