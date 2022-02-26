@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+}
+
+h6 {
+    opacity: 0.5;
+    padding: 10px 0px 10px 10px;
+
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    opacity: 0.4;
+}
+span {
+    float: right;
+    opacity: 1;
+}
