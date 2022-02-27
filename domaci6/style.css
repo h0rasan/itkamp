@@ -8,10 +8,11 @@
     display: inline-block;
     width: 400px;
     height: 400px;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.027);
 }
 
 h6 {
+    
     opacity: 0.5;
     padding: 10px 0px 10px 10px;
 
@@ -22,11 +23,29 @@ h2 {
 }
 
 p {
-    padding: 5px;
+    padding: 8px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.418);
     opacity: 0.4;
 }
-span {
+.info {
     float: right;
     opacity: 1;
+}
+
+.kartice {
+    display: inline-block;
+    width: 400px;
+}
+
+.kategorije {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 10px;
+    padding-right: 57px;
+    padding-left: 1px;
+    border-bottom: 1px solid gray;
+
+}
+.tekst {
+    margin: 10px 5px;
 }
