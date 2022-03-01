@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+.main {
+    width: auto;
+}
 
 .container{
     display: inline-block;
@@ -25,14 +28,15 @@ h2 {
 p {
     padding: 8px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.418);
-    opacity: 0.4;
+    color: rgba(128, 128, 128, 0.726);
 }
 .info {
     float: right;
-    opacity: 1;
+    color: black;
 }
 
 .kartice {
+    padding: 10px 0;
     display: inline-block;
     width: 400px;
 }
@@ -48,4 +52,39 @@ p {
 }
 .tekst {
     margin: 10px 5px;
+    padding-left: 6px;
+}
+
+.poslednji_div {
+    border: hidden;
+}
+
+
+.button {
+  background-color: slateblue;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 10px 2px 4px 2px;
+  cursor: pointer;
+  float: right;
+  border-radius: 7px;
+}
+
+.cena {
+    display: inline-block;
+    padding: 10px 0 0 7px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.desno {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.055);
+    width: 400px;
+    height: 400px;
 }
