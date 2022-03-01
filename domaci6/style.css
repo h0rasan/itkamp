@@ -5,9 +5,11 @@
 
 .main {
     width: auto;
+    margin: 150px 0 0 150px;
 }
 
 .container{
+    margin-right: 25px;
     display: inline-block;
     width: 400px;
     height: 400px;
@@ -87,4 +89,12 @@ p {
     background-color: rgba(128, 128, 128, 0.055);
     width: 400px;
     height: 400px;
+    position: absolute;
+}
+
+.drugi_container {
+    margin: 150px 0 0 10px;
+    font-size: 90px;
+    border: none;
+    
 }
