@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.prvi_red {
+    
+    
+    height: 100px;
+    width: auto;
+
+}
+
+.pr_lijevo {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 100px;
+    width: 80%;
+}
+
+.pr_desno {
+    float: inline-end;
+    background-color: coral;
+    height: 100px;
+    width: 20%;
+}
+
+.drugi_red {
+    
+    height: 100px;
+    width: auto;
+}
+
+.dr_lijevo {
+    display: inline-block;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 40%;
+}
+
+.dr_desno {
+    background-color: darkseagreen;
+    float: right;
+    height: 100px;
+    width: 20%;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.kocka {
+    display: inline-block;
+
+    width: 35px;
+    height: 35px;
+    margin: 40px 0 0 40px;
+}
+
+img {
+    height: auto;
+    width: 32px;
+}
