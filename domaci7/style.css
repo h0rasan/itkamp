@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid rgba(0, 255, 200, 0);
+    width: 1600px;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+      
+}
+
+.menu {
+    width: 30%;
+    height: 2.5em;
+    font-size: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+span {
+    font-size: 16px;
+    display: inline-block;    
+    padding: 8px 20px;
+    border-bottom: 2px solid rgba(85, 83, 83, 0.486);
+}
+
+.box {
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(172, 171, 170, 0.075);
+    width: 330px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 7%;
+    
+}
+
+.text {
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+img {
+    width: 1.2rem;
+    height: auto;
+    
+}
+
+#border {
+    border-bottom: 2px solid rgb(99,102,241);
+    color: rgb(99,102,241);
+    background-color: rgba(99, 101, 241, 0.068);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
