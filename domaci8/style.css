@@ -1,4 +1,5 @@
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +10,7 @@
     background-color: #6366f1;
     width: 100%;
     height: 64px;
+    padding-bottom: 12px;
     
 }
 
@@ -47,12 +49,12 @@
     border: 1px solid whitesmoke;
     border-radius: 15px;
     width: fit-content;
-    padding: 3px 10px 3px 10px;
+    padding: 2px 10px 2px 10px;
     color: whitesmoke;
     position: relative;
     display: inline-block;
     top: 33%;
-    left: 40%;
+    left: 64%;
     cursor: pointer;
 }
 
@@ -63,8 +65,8 @@
     background-color: whitesmoke;
     padding: 2px 8px 2px 8px;
     position: relative;
-    top: 33%;
-    left: 41%;
+    top: 30%;
+    left: 65%;
     cursor: pointer;
     color: whitesmoke;
     text-align: center;
@@ -72,10 +74,68 @@
 }
 
 .boja {
-  height: 20px;
-  width: 20px; 
+  height: 21px;
+  width: 21px; 
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
   margin: auto;
+}
+
+.icn_btn {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    top: 33%;
+    left: 66%;
+}
+
+.img_nav {
+    display: inline;
+    width: 25px;
+    height: 21px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.toggle_div {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 27px;
+    border-radius: 15px;
+    background-color: rgba(173, 196, 233, 0.658);
+    top: 33%;
+    left: 66%;
+    padding-left: 2px;
+}
+
+#tgl_round {
+    float: right;
+    margin: 3px 2px 0 0;
+}
+
+.main_div {
+    width: 100%;
+    height: 1200px;
+    padding-top: 200px;
+    
+}
+
+.team {
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    border: 1px solid rgba(173, 169, 169, 0.507);
+    border-radius: 12px;
+    margin: auto;
+}
+
+.img_div {
+    display: inline-block;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin: 10px;
 }
