@@ -19,15 +19,23 @@
     border-radius: 15px;
     border: 1px solid rgba(169, 169, 169, 0.116);
 }
+.main_card:hover {
+    border: 1px solid rgba(169, 169, 169, 0.329);
+}
+
+.main_card:hover img {
+    visibility: visible;
+}
 
 .card_nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
     height: 40px;
-    padding-left: 10%;
+    padding: 0 5% 0 10%;
     background-color: #1c1f26;
 }
 
@@ -42,11 +50,24 @@
     font-size: 0.7rem;
 }
 
+.dotted_menu {
+    width: 24px;
+    height: auto;
+    background-color: #1c1f26;
+    visibility: hidden;
+}
+
+.dotted_menu:hover img {
+    background-color: #2e313a;
+    visibility: visible;
+    
+}
+
 .text_div {
     background-color: #1c1f26;
     width: 100%;
     height: fit-content;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 10%;
 }
 
 .content {
