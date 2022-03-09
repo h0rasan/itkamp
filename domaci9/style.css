@@ -1,0 +1,96 @@
+* {
+    background-color: #0e1217;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Ubuntu,Segoe UI,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.main_card {
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 313px;
+    height: 364px;
+    background-color: #1c1f26;
+    border-radius: 15px;
+    border: 1px solid rgba(169, 169, 169, 0.116);
+}
+
+.card_nav {
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10%;
+    background-color: #1c1f26;
+}
+
+.nav_logo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 1.5% 1%;
+    font-size: 0.7rem;
+}
+
+.text_div {
+    background-color: #1c1f26;
+    width: 100%;
+    height: fit-content;
+    padding: 0% 10% 0% 10%;
+}
+
+.content {
+    background-color: inherit;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+img {
+    border-radius: 10px;
+    background-color: #1c1f26;
+}
+
+h3 {
+    color: whitesmoke; 
+    background-color: #1c1f26;
+    padding: 10px 0 25px 0;
+}
+
+.social_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 0 10%;
+    background-color: #1c1f26;
+}
+
+.soc_icon {
+    background-color: #1c1f26;
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.paragraph {
+    display: block;
+    position: relative;
+    right: 13%;
+    color: whitesmoke;
+    width: fit-content;
+    background-color: #1c1f26;
+    height: 22px;
+}
+
