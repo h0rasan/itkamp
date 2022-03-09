@@ -77,9 +77,24 @@
     padding: 2%;
 }
 
+.content_hidden {
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 299px;
+    height: 30px;
+    background-color: #0e1217;
+    visibility: hidden;
+}
+
+#hidden_img {
+    border-radius: 10px 10px 0 0;
+}
+
 img {
     border-radius: 10px;
     background-color: #1c1f26;
+    padding: 2px;
 }
 
 h3 {
@@ -115,3 +130,14 @@ h3 {
     height: 22px;
 }
 
+#img1:hover, #img2:hover {
+    background-color: #39e58c;
+}
+
+#img3:hover {
+    background-color: #ff8e3b;
+}
+
+.paragraph:hover {
+    color: #39e58c;
+}
