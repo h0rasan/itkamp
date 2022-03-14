@@ -1,0 +1,22 @@
+body {
+    margin: 200px 0 0 200px;
+
+}
+div {
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+    animation-name: rotate_box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg);
+    animation-direction: alternate;
+}
+
+@keyframes rotate_box {
+    25% {border-radius: 50% 0 0 0; transform: rotate(90deg);}
+    50% {border-radius: 50% 50% 0 0; transform: rotate(135deg);}
+    51% {border-radius: 50% 50% 0 0; transform: rotate(133deg);}
+    75% {border-radius: 50% 50% 50% 0 ; transform: rotate(180deg);}
+    100% {border-radius: 50%; transform: rotate(225deg);}
+}
