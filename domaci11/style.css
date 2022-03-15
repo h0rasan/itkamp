@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px 0 0 200px;
+    background-color:antiquewhite;
+}
+.container {
+    display: inline;
+    font-family: 'Maven Pro', sans-serif;
+    color: goldenrod;
+}
+
+
+.one {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    
+
+}
+
+.two {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 0.65s;
+}
+
+.tree {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 1.35s;
+}
+
+.four {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 2.05s;
+}
+
+.five {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 2.75s;
+}
+
+.six {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 3.45s;
+}
+
+.seven {
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 4px 6px 4px rgb(109, 102, 102);
+    animation-name: rotate_letter;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    transform: rotateY(0deg);
+    animation-direction: alternate;
+    animation-delay: 4.15s;
+    
+}
+
+
+@keyframes rotate_letter {
+    
+    0% {transform: rotateY(360deg);}
+}
+
