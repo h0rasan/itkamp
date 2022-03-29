@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.main_container {
+    
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    padding-bottom: 5%;
+}
+h1 {
+    display: inline-block;  
+}
+
+p {
+    display: inline-block;
+}
+
+.grid_container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "box1 box2 box3 box3"
+    "box4 box4 box3 box3"
+    "box4 box4 box5 box6";
+}
+
+.box1 {
+    grid-area: box1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+.box2 {
+    grid-area: box2;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+.box3 {
+    grid-area: box3;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+.box4 {
+    grid-area: box4;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+.box5 {
+    grid-area: box5;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+.box6 {
+    grid-area: box6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e2534;
+    color: #888b93;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .grid_container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        gap: 10px;    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas: 
+        "box1 box2"
+        "box3 box3"
+        "box3 box3"
+        "box4 box4" 
+        "box4 box4"
+        "box5 box6";
+    }
+    .header {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .grid_container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        gap: 10px;    
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas: 
+        "box1"
+        "box2"
+        "box3"
+        "box4"
+        "box5"
+        "box6";
+    }
+}
