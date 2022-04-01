@@ -5,21 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Maven+Pro:wght@600&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+
     <title>Domaci tabele</title>
+
 </head>
 
 <body>
     <div class="header">
         <div class="left">Manage Employees</div>
         <div class="right">
-            <span class="red"></span>
-            <span class="green"></span>
+            <div class="red">
+                <span class="material-icons-outlined">
+                    remove_circle
+                </span>
+                Delete
+            </div>
+            <div class="green">
+                <span class="material-icons-outlined">
+                    add_circle
+                </span>
+                Add New Employee
+            </div>
         </div>
     </div>
     <div class="flex_table">
@@ -42,7 +55,11 @@
                 <td>thomashardy@gmail.com</td>
                 <td>89 Chiaroscuro Rd, Portland, USA</td>
                 <td>(171) 555-2222</td>
-                <td></td>
+                <td><span class="material-icons-outlined edit">
+                        edit
+                    </span><span class="material-icons-outlined">
+                        delete
+                    </span></td>
             </tr>
             <tr>
                 <td><label class="checkbox" for="myCheckboxId"><input class="checkbox__input" type="checkbox"
@@ -51,7 +68,11 @@
                 <td>dominiqueperrier@mail.com</td>
                 <td>Obere Str. 57 Berlin, Germany</td>
                 <td>(313) 555-5735</td>
-                <td></td>
+                <td><span class="material-icons-outlined edit">
+                        edit
+                    </span><span class="material-icons-outlined">
+                        delete
+                    </span></td>
             </tr>
             <tr>
                 <td><label class="checkbox" for="myCheckboxId"><input class="checkbox__input" type="checkbox"
@@ -60,7 +81,11 @@
                 <td>mariaanders@mail.com</td>
                 <td>25, rue Laurison, Paris, France</td>
                 <td>(503) 555-9931</td>
-                <td></td>
+                <td><span class="material-icons-outlined edit">
+                        edit
+                    </span><span class="material-icons-outlined">
+                        delete
+                    </span></td>
             </tr>
             <tr>
                 <td><label class="checkbox" for="myCheckboxId"><input class="checkbox__input" type="checkbox"
@@ -69,7 +94,11 @@
                 <td>franwilson@mail.com</td>
                 <td>C/ Araquil, 67, Madrid, Spain</td>
                 <td>(204) 619-5731</td>
-                <td></td>
+                <td><span class="material-icons-outlined edit">
+                        edit
+                    </span><span class="material-icons-outlined">
+                        delete
+                    </span></td>
             </tr>
             <tr>
                 <td><label class="checkbox" for="myCheckboxId"><input class="checkbox__input" type="checkbox"
@@ -78,7 +107,11 @@
                 <td>martinblank@mail.com</td>
                 <td>Via Monte Bianco 34, Turin, Italy</td>
                 <td>(480) 631-2097</td>
-                <td></td>
+                <td><span class="material-icons-outlined edit">
+                        edit
+                    </span><span class="material-icons-outlined">
+                        delete
+                    </span></td>
             </tr>
 
         </table>

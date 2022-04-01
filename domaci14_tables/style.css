@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 1rem;
     font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
 }
 
 body {
@@ -34,18 +35,39 @@ body {
 }
 
 .left {
-    font-weight: 700;
     color: white;
     font-size: 2rem;
 }
 
+.right {
+    font-weight: 200;
+    display: flex;
+    width: fit-content;
+    height: auto;
+    margin-right: 15px;
+    gap: 15px;
+}
+
 .red {
+    display: flex;
+    align-items: center;
     background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
 
 }
 
 .green {
+    display: flex;
+    align-items: center;
+    padding: 5px;
     background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+
 }
 
 table {
@@ -57,7 +79,7 @@ tr:nth-child(even) {
     background-color: #fcfcfc;
 }
 
-tr:hover td{
+tr:hover td {
     background-color: #f5f5f5;
 }
 
@@ -72,4 +94,15 @@ th {
 
 td {
     padding: 15px 5px;
+}
+
+td .material-icons-outlined {
+    color: #f55549;
+    cursor: pointer;
+}
+
+td .edit {
+    margin-right: 10px;
+    color: #ffc71f;
+    cursor: pointer;
 }
